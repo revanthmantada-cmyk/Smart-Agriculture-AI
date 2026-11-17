@@ -1,0 +1,27 @@
+# .gitignore
+# Node
+node_modules/
+dist/
+.vite/
+/.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+instance/
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Logs
+*.log# Backend virtual environment
+venv/
+
+# Database files
+*.db
